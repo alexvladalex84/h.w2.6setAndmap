@@ -13,9 +13,15 @@ public class Main {
         }
         System.out.println("Задача 2");
 
-        List<Integer> nums2 = new ArrayList<>(List.of(1, 9, 2, 3, 1, 2, 3, 4, 4, 5, 5, 6, 7));
+        List<Integer> nums2 = new ArrayList<>(List.of(1, 9, 2, 3, 1, 2, 3, 4, 4, 5, 5, 6, 8,7));
         Set<Integer> result = new TreeSet<>(nums2);
-        System.out.println(result);
+        for (int result1 : result) {
+            if (result1 % 2 == 0) {
+                System.out.println(result1);
+
+            }
+        }
+
 
         System.out.println("Задача 3");
 
